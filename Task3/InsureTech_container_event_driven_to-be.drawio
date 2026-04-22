@@ -1,64 +1,64 @@
 <mxfile host="app.diagrams.net" agent="Codex">
   <diagram id="task1-to-be" name="InureTech_технологическая архитектура_to-be">
-    <mxGraphModel dx="-214" dy="1992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1250" math="0" shadow="0">
+    <mxGraphModel dx="1555" dy="1763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1250" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=23;fontStyle=1;align=center;verticalAlign=middle;" value="&lt;b&gt;InsureTech: контейнерная архитектура Event-Driven to-be&lt;/b&gt;" vertex="1">
-          <mxGeometry height="38" width="980" x="2094.5873015873017" y="-2.7460317460315764" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-301" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=23;fontStyle=1;align=center;verticalAlign=middle;" value="&lt;b&gt;InsureTech: продукты и полисы через события&lt;/b&gt;" vertex="1">
+          <mxGeometry height="38" width="980" x="2749.5873015873017" y="161.75396825396842" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=13;align=center;verticalAlign=middle;" value="Kafka event streaming | product-catalog-events | policy-events | Transactional Outbox" vertex="1">
-          <mxGeometry height="28" width="980" x="2094.5873015873017" y="35.253968253968424" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-302" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=13;align=center;verticalAlign=middle;" value="Kafka event streaming | product-catalog-events | policy-events | Transactional Outbox" vertex="1">
+          <mxGeometry height="28" width="980" x="2749.5873015873017" y="199.75396825396842" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-80" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0b4f8a;strokeColor=#073763;fontColor=#ffffff;fontSize=14;fontStyle=1;arcSize=12;" value="&lt;b&gt;Клиенты&lt;/b&gt;&lt;br&gt;Web / Mobile" vertex="1">
-          <mxGeometry height="70" width="170" x="1854.5873015873017" y="102.25396825396842" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-303" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0b4f8a;strokeColor=#073763;fontColor=#ffffff;fontSize=14;fontStyle=1;arcSize=12;" value="&lt;b&gt;Клиенты&lt;/b&gt;&lt;br&gt;Web / Mobile" vertex="1">
+          <mxGeometry height="70" width="170" x="2409.9973015873015" y="266.7539682539684" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7f7890;strokeColor=#5b556b;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" value="&lt;b&gt;Системы партнёров&lt;/b&gt;&lt;br&gt;API consumers" vertex="1">
-          <mxGeometry height="78" width="190" x="1844.5873015873017" y="254.11396825396844" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-304" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7f7890;strokeColor=#5b556b;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" value="&lt;b&gt;Системы партнёров&lt;/b&gt;&lt;br&gt;API-потребители" vertex="1">
+          <mxGeometry height="78" width="190" x="2399.9973015873015" y="418.61396825396844" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-82" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7f7890;strokeColor=#5b556b;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" value="&lt;b&gt;Платёжный сервис&lt;/b&gt;&lt;br&gt;payment redirect / HTTP" vertex="1">
-          <mxGeometry height="78" width="210" x="1854.5873015873017" y="1017.2539682539684" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-305" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7f7890;strokeColor=#5b556b;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" value="&lt;b&gt;Платёжный сервис&lt;/b&gt;&lt;br&gt;payment redirect / HTTP" vertex="1">
+          <mxGeometry height="78" width="210" x="2509.5873015873017" y="1181.7539682539684" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-83" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7f7890;strokeColor=#5b556b;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" value="&lt;b&gt;Системы страховых компаний&lt;/b&gt;&lt;br&gt;10 integrations&lt;br&gt;REST / SOAP / GraphQL" vertex="1">
-          <mxGeometry height="110" width="240" x="3468.447301587302" y="397.2539682539684" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-306" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7f7890;strokeColor=#5b556b;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" value="&lt;b&gt;Системы страховых компаний&lt;/b&gt;&lt;br&gt;10 интеграций&lt;br&gt;REST / SOAP / GraphQL" vertex="1">
+          <mxGeometry height="110" width="240" x="4279.997301587302" y="561.7539682539684" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-84" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=46;fillColor=#f8fbff;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;rounded=0;dashed=1;" value="&lt;b&gt;InsureTech Prod&lt;/b&gt;&lt;br&gt;обновлённая C4 container-схема без изменения функциональной декомпозиции" vertex="1">
-          <mxGeometry height="901.86" width="1330" x="2048.4444444444443" y="92.25111111111109" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-307" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=46;fillColor=#f8fbff;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;rounded=0;dashed=1;" value="&lt;b&gt;InsureTech Prod&lt;/b&gt;&lt;br&gt;сервисы, локальные реплики и событийный обмен" vertex="1">
+          <mxGeometry height="901.86" width="1390" x="2710" y="256.75" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-85" parent="NEB-Y5XdSD5AEIW8j8R5-84" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;InsureTech Web&lt;/b&gt;&lt;br&gt;JavaScript / React&lt;br&gt;Веб-приложение клиента" vertex="1">
-          <mxGeometry height="95" width="220" x="67.5" y="66.86" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-308" parent="NEB-Y5XdSD5AEIW8j8R5-307" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;InsureTech Web&lt;/b&gt;&lt;br&gt;JavaScript / React&lt;br&gt;Веб-приложение клиента" vertex="1">
+          <mxGeometry height="95" width="220" x="28.64" y="66.86" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-86" parent="NEB-Y5XdSD5AEIW8j8R5-84" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;client-info&lt;/b&gt;&lt;br&gt;SpringBoot&lt;br&gt;Клиентские данные" vertex="1">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-309" parent="NEB-Y5XdSD5AEIW8j8R5-307" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;client-info&lt;/b&gt;&lt;br&gt;SpringBoot&lt;br&gt;Клиентские данные" vertex="1">
           <mxGeometry height="95" width="220" x="430" y="66.86" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-87" parent="NEB-Y5XdSD5AEIW8j8R5-84" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;client-info-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;данные клиентов" vertex="1">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-310" parent="NEB-Y5XdSD5AEIW8j8R5-307" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;client-info-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;данные клиентов" vertex="1">
           <mxGeometry height="105" width="230" x="960" y="61.86" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-88" parent="NEB-Y5XdSD5AEIW8j8R5-84" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;core-app&lt;/b&gt;&lt;br&gt;SpringBoot&lt;br&gt;продукты, заявки, страховки&lt;br&gt;consumer + outbox publisher" vertex="1">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-311" parent="NEB-Y5XdSD5AEIW8j8R5-307" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;core-app&lt;/b&gt;&lt;br&gt;SpringBoot&lt;br&gt;продукты, заявки, страховки&lt;br&gt;читает product events, публикует policy events" vertex="1">
           <mxGeometry height="125" width="245" x="16.14" y="386.86" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-89" parent="NEB-Y5XdSD5AEIW8j8R5-84" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;core-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;заявки, оформленные страховки,&lt;br&gt;local product replica, outbox" vertex="1">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-312" parent="NEB-Y5XdSD5AEIW8j8R5-307" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;core-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;заявки, оформленные страховки,&lt;br&gt;локальная реплика продуктов, outbox" vertex="1">
           <mxGeometry height="130" width="245" x="20" y="660" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-90" parent="NEB-Y5XdSD5AEIW8j8R5-84" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;fontSize=12;fontStyle=1;arcSize=10;spacingLeft=54;align=left;" value="&lt;b&gt;Kafka / Event Broker&lt;/b&gt;&lt;br&gt;product-catalog-events&lt;br&gt;insurance_product_upserted&lt;br&gt;insurance_product_disabled&lt;br&gt;&lt;br&gt;policy-events&lt;br&gt;insurance_policy_issued" vertex="1">
-          <mxGeometry height="210" width="300" x="470" y="345.93" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-313" parent="NEB-Y5XdSD5AEIW8j8R5-307" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;fontSize=12;fontStyle=1;arcSize=10;spacingLeft=54;align=left;" value="&lt;b&gt;Kafka / Event Broker&lt;/b&gt;&lt;br&gt;product-catalog-events&lt;br&gt;insurance_product_upserted&lt;br&gt;insurance_product_disabled&lt;br&gt;&lt;br&gt;policy-events&lt;br&gt;insurance_policy_issued" vertex="1">
+          <mxGeometry height="210" width="300" x="530" y="345.93" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-91" parent="NEB-Y5XdSD5AEIW8j8R5-84" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;ins-product-aggregator&lt;/b&gt;&lt;br&gt;Kotlin, SpringBoot&lt;br&gt;интеграция со страховыми&lt;br&gt;producer product events" vertex="1">
-          <mxGeometry height="125" width="250" x="950" y="290" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-314" parent="NEB-Y5XdSD5AEIW8j8R5-307" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;ins-product-aggregator&lt;/b&gt;&lt;br&gt;Kotlin, SpringBoot&lt;br&gt;интеграция со страховыми&lt;br&gt;producer событий продуктов" vertex="1">
+          <mxGeometry height="125" width="250" x="1070" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-92" parent="NEB-Y5XdSD5AEIW8j8R5-84" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;product-catalog-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;catalog snapshot / delta,&lt;br&gt;outbox product events" vertex="1">
-          <mxGeometry height="130" width="250" x="950" y="501.86" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-315" parent="NEB-Y5XdSD5AEIW8j8R5-307" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;product-catalog-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;снапшот / дельта каталога,&lt;br&gt;outbox событий продуктов" vertex="1">
+          <mxGeometry height="130" width="250" x="1070" y="511.86" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-93" parent="NEB-Y5XdSD5AEIW8j8R5-84" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;ins-comp-settlement&lt;/b&gt;&lt;br&gt;Kotlin, SpringBoot&lt;br&gt;consumer product/policy events&lt;br&gt;реестры взаиморасчётов" vertex="1">
-          <mxGeometry height="125" width="270" x="350" y="665" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-316" parent="NEB-Y5XdSD5AEIW8j8R5-307" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;ins-comp-settlement&lt;/b&gt;&lt;br&gt;Kotlin, SpringBoot&lt;br&gt;потребитель product/policy events&lt;br&gt;реестры взаиморасчётов" vertex="1">
+          <mxGeometry height="125" width="270" x="330" y="723.25" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-94" parent="NEB-Y5XdSD5AEIW8j8R5-84" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;ins-comp-settlement-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;реестры, local product replica,&lt;br&gt;local policy replica" vertex="1">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-317" parent="NEB-Y5XdSD5AEIW8j8R5-307" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;ins-comp-settlement-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;реестры, локальная реплика продуктов,&lt;br&gt;локальная реплика полисов" vertex="1">
           <mxGeometry height="130" width="270" x="753.86" y="751.86" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-95" parent="NEB-Y5XdSD5AEIW8j8R5-84" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000000;fontSize=12;fontStyle=1;arcSize=10;spacingLeft=56;align=left;" value="&lt;b&gt;Monitoring / Alerting&lt;/b&gt;&lt;br&gt;consumer lag, DLQ size&lt;br&gt;outbox age, replay status&lt;br&gt;last processed event age" vertex="1">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-318" parent="NEB-Y5XdSD5AEIW8j8R5-307" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000000;fontSize=12;fontStyle=1;arcSize=10;spacingLeft=56;align=left;" value="&lt;b&gt;Monitoring / Alerting&lt;/b&gt;&lt;br&gt;consumer lag, размер DLQ&lt;br&gt;возраст outbox и replay&lt;br&gt;когда обработали последнее событие" vertex="1">
           <mxGeometry height="105" width="300" x="620" y="191.86" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-96" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-84" source="NEB-Y5XdSD5AEIW8j8R5-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-88" value="REST: products / policies">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-319" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-307" source="NEB-Y5XdSD5AEIW8j8R5-308" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-311" value="REST: продукты / полисы">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="177" y="202" />
@@ -66,10 +66,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-97" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-84" source="NEB-Y5XdSD5AEIW8j8R5-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-86" value="REST: client data">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-320" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-307" source="NEB-Y5XdSD5AEIW8j8R5-308" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-309" value="REST: клиентские данные">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-98" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-84" source="NEB-Y5XdSD5AEIW8j8R5-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-86" value="REST: get/save client">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-321" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-307" source="NEB-Y5XdSD5AEIW8j8R5-311" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-309" value="REST: получить/сохранить клиента">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="252" y="192" />
@@ -77,16 +77,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-99" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-84" source="NEB-Y5XdSD5AEIW8j8R5-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-87" value="TCP">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-322" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-307" source="NEB-Y5XdSD5AEIW8j8R5-309" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-310" value="TCP">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-100" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-84" source="NEB-Y5XdSD5AEIW8j8R5-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-89" value="TCP">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-323" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-307" source="NEB-Y5XdSD5AEIW8j8R5-311" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-312" value="TCP">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-101" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-84" source="NEB-Y5XdSD5AEIW8j8R5-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-92" value="TCP">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-324" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-307" source="NEB-Y5XdSD5AEIW8j8R5-314" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-315" value="TCP">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-102" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-84" source="NEB-Y5XdSD5AEIW8j8R5-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-94" value="TCP">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-325" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-307" source="NEB-Y5XdSD5AEIW8j8R5-316" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-317" value="TCP">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="687" y="772" />
@@ -94,55 +94,55 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-103" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-84" source="NEB-Y5XdSD5AEIW8j8R5-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#6c8ebf;fontColor=#6c8ebf;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-90" value="publish product-catalog-events&lt;br&gt;via Transactional Outbox">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-326" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-307" source="NEB-Y5XdSD5AEIW8j8R5-314" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#6c8ebf;fontColor=#6c8ebf;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-313" value="публикует product-catalog-events&lt;br&gt;через Transactional Outbox">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-104" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-84" source="NEB-Y5XdSD5AEIW8j8R5-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#6c8ebf;fontColor=#6c8ebf;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-90" value="publish policy-events&lt;br&gt;via Transactional Outbox">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-327" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-307" source="NEB-Y5XdSD5AEIW8j8R5-311" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#6c8ebf;fontColor=#6c8ebf;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-313" value="публикует policy-events&lt;br&gt;через Transactional Outbox">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-105" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-84" source="NEB-Y5XdSD5AEIW8j8R5-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#6c8ebf;fontColor=#6c8ebf;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-88" value="consume product-catalog-events&lt;br&gt;update local product replica">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-328" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-307" source="NEB-Y5XdSD5AEIW8j8R5-313" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#6c8ebf;fontColor=#6c8ebf;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-311" value="consume product-catalog-events&lt;br&gt;обновляет локальную реплику продуктов">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-106" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-84" source="NEB-Y5XdSD5AEIW8j8R5-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#6c8ebf;fontColor=#6c8ebf;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-93" value="consume product-catalog-events&lt;br&gt;consume policy-events">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-329" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-307" source="NEB-Y5XdSD5AEIW8j8R5-313" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#6c8ebf;fontColor=#6c8ebf;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-316" value="consume product-catalog-events&lt;br&gt;consume policy-events">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-107" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-84" source="NEB-Y5XdSD5AEIW8j8R5-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;dashed=1;strokeColor=#d6b656;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-95" value="metrics">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-330" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-307" source="NEB-Y5XdSD5AEIW8j8R5-313" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;dashed=1;strokeColor=#d6b656;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-318" value="метрики">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="530" y="244" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-108" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="&lt;b&gt;Transactional Outbox&lt;/b&gt;&lt;br&gt;core-app: insurance_policy_issued вместе с записью полиса&lt;br&gt;aggregator: product events вместе со snapshot/delta каталога" vertex="1">
-          <mxGeometry height="105" width="350" x="2104.5873015873017" y="1034.1139682539683" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-331" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="&lt;b&gt;Transactional Outbox&lt;/b&gt;&lt;br&gt;core-app: insurance_policy_issued вместе с записью полиса&lt;br&gt;aggregator: product events вместе со снапшотом/дельтой каталога" vertex="1">
+          <mxGeometry height="105" width="350" x="2759.5873015873017" y="1198.6139682539683" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-109" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="&lt;b&gt;REST polling removed&lt;/b&gt;&lt;br&gt;core-app не опрашивает aggregator каждые 15 минут&lt;br&gt;settlement не опрашивает aggregator и core-app раз в сутки" vertex="1">
-          <mxGeometry height="105" width="350" x="2474.5873015873017" y="1034.1139682539683" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-332" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="&lt;b&gt;REST polling удалён&lt;/b&gt;&lt;br&gt;core-app не опрашивает aggregator каждые 15 минут&lt;br&gt;settlement не опрашивает aggregator и core-app раз в сутки" vertex="1">
+          <mxGeometry height="105" width="350" x="3129.5873015873017" y="1198.6139682539683" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-110" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="&lt;b&gt;Event reliability&lt;/b&gt;&lt;br&gt;partition keys: companyId+productId+tariffId, policyId&lt;br&gt;idempotency by eventId | retry/DLQ | replay from Kafka" vertex="1">
-          <mxGeometry height="105" width="350" x="2844.5873015873017" y="1034.1139682539683" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-333" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="&lt;b&gt;Надёжность событий&lt;/b&gt;&lt;br&gt;partition keys: companyId+productId+tariffId, policyId&lt;br&gt;идемпотентность по eventId | retry/DLQ | replay from Kafka" vertex="1">
+          <mxGeometry height="105" width="350" x="3499.5873015873017" y="1198.6139682539683" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-111" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-85" value="">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-334" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-308" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-112" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-88" value="REST API">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-335" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-311" value="REST API">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2120" y="303" />
+              <mxPoint x="2775" y="467.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-113" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-82" value="payment redirect / HTTP">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-336" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-311" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-305" value="payment redirect / HTTP">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1959.4444444444443" y="542.1111111111111" />
+              <mxPoint x="2614.4444444444443" y="706.6111111111111" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-114" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-83" value="получение продуктов и тарифов&lt;br&gt;REST / SOAP / GraphQL">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-337" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-314" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-306" value="получение продуктов и тарифов&lt;br&gt;REST / SOAP / GraphQL">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-115" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-83" value="передача данных для расчётов&lt;br&gt;REST / GraphQL">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-338" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-316" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-306" value="передача данных для расчётов&lt;br&gt;REST / GraphQL">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>

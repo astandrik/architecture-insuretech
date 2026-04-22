@@ -1,67 +1,67 @@
 <mxfile host="app.diagrams.net" agent="Codex">
   <diagram id="task1-to-be" name="InureTech_технологическая архитектура_to-be">
-    <mxGraphModel dx="3055" dy="1763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1250" math="0" shadow="0">
+    <mxGraphModel dx="2444" dy="2660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1250" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-116" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="InsureTech OSAGO sale to-be | C4 Container | REST + WebSocket + gRPC streaming" vertex="1">
-          <mxGeometry height="40" width="1700" x="577.3333333333335" y="18.55555555555543" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-339" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="InsureTech: оформление ОСАГО | REST + WebSocket + gRPC streaming" vertex="1">
+          <mxGeometry height="40" width="1700" x="1127.3333333333335" y="-24.44444444444457" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-117" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000000;fontSize=12;fontStyle=1;arcSize=10;align=left;spacingLeft=12;" value="&lt;b&gt;Legend&lt;/b&gt;&lt;br&gt;Blue containers: InsureTech services / DB&lt;br&gt;Light blue: event broker / streaming&lt;br&gt;Gray: external actors and systems&lt;br&gt;Yellow notes: API and reliability decisions" vertex="1">
-          <mxGeometry height="120" width="310" x="227.33333333333348" y="78.55555555555543" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-340" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000000;fontSize=12;fontStyle=1;arcSize=10;align=left;spacingLeft=12;" value="&lt;b&gt;Цвета&lt;/b&gt;&lt;br&gt;Синие блоки: сервисы и БД InsureTech&lt;br&gt;Светло-синий: Kafka / streaming&lt;br&gt;Серый: внешние системы&lt;br&gt;Жёлтый: API и отказоустойчивость" vertex="1">
+          <mxGeometry height="120" width="310" x="777.3333333333335" y="35.55555555555543" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-118" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7f7890;strokeColor=#5b556b;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" value="&lt;b&gt;Клиент&lt;/b&gt;&lt;br&gt;заполняет заявку ОСАГО&lt;br&gt;и получает предложения" vertex="1">
-          <mxGeometry height="90" width="210" x="70.00333333333347" y="298.55555555555543" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-341" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7f7890;strokeColor=#5b556b;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" value="&lt;b&gt;Клиент&lt;/b&gt;&lt;br&gt;заполняет заявку ОСАГО&lt;br&gt;и получает предложения" vertex="1">
+          <mxGeometry height="90" width="210" x="620.0033333333334" y="255.55555555555543" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-119" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7f7890;strokeColor=#5b556b;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" value="&lt;b&gt;Web application&lt;/b&gt;&lt;br&gt;React Web UI&lt;br&gt;форма ОСАГО + live offers" vertex="1">
-          <mxGeometry height="110" width="240" x="420.00333333333344" y="369.9955555555554" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-342" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7f7890;strokeColor=#5b556b;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=10;" value="&lt;b&gt;Веб-приложение&lt;/b&gt;&lt;br&gt;React Web UI&lt;br&gt;форма ОСАГО + предложения онлайн" vertex="1">
+          <mxGeometry height="110" width="240" x="920.0033333333334" y="379.9955555555554" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cccccc;strokeColor=#666666;fontColor=#000000;fontSize=13;fontStyle=1;arcSize=10;" value="&lt;b&gt;Страховые компании&lt;/b&gt;&lt;br&gt;10 external REST APIs&lt;br&gt;create OSAGO application&lt;br&gt;poll/get offer" vertex="1">
-          <mxGeometry height="130" width="260" x="2680.0033333333336" y="739.9955555555555" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-343" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cccccc;strokeColor=#666666;fontColor=#000000;fontSize=13;fontStyle=1;arcSize=10;" value="&lt;b&gt;Страховые компании&lt;/b&gt;&lt;br&gt;10 внешних REST API&lt;br&gt;создать заявку ОСАГО&lt;br&gt;получить предложение (polling)" vertex="1">
+          <mxGeometry height="130" width="260" x="3230.0033333333336" y="696.9955555555555" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-121" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=42;fillColor=#f8fbff;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;rounded=0;" value="&lt;b&gt;InsureTech application landscape&lt;/b&gt;&lt;br&gt;Kubernetes, multiple replicas per service" vertex="1">
-          <mxGeometry height="910" width="1522.67" x="870" y="108.56" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-344" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=42;fillColor=#f8fbff;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;rounded=0;" value="&lt;b&gt;Сервисы InsureTech&lt;/b&gt;&lt;br&gt;Kubernetes, несколько реплик на сервис" vertex="1">
+          <mxGeometry height="910" width="1732.67" x="1250" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-122" parent="NEB-Y5XdSD5AEIW8j8R5-121" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;client-info&lt;/b&gt;&lt;br&gt;SpringBoot&lt;br&gt;клиентские данные" vertex="1">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-345" parent="NEB-Y5XdSD5AEIW8j8R5-344" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;client-info&lt;/b&gt;&lt;br&gt;SpringBoot&lt;br&gt;клиентские данные" vertex="1">
           <mxGeometry height="90" width="210" x="20" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-123" parent="NEB-Y5XdSD5AEIW8j8R5-121" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;client-info-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;данные клиентов" vertex="1">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-346" parent="NEB-Y5XdSD5AEIW8j8R5-344" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;client-info-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;данные клиентов" vertex="1">
           <mxGeometry height="90" width="210" x="60" y="421.44" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-124" parent="NEB-Y5XdSD5AEIW8j8R5-121" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;core-app&lt;/b&gt;&lt;br&gt;SpringBoot&lt;br&gt;ОСАГО application owner&lt;br&gt;REST API + WebSocket gateway&lt;br&gt;consumer + outbox publisher" vertex="1">
-          <mxGeometry height="125" width="260" x="370" y="90" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-347" parent="NEB-Y5XdSD5AEIW8j8R5-344" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;core-app&lt;/b&gt;&lt;br&gt;SpringBoot&lt;br&gt;владелец заявки ОСАГО&lt;br&gt;REST API + WebSocket-шлюз&lt;br&gt;consumer + outbox publisher" vertex="1">
+          <mxGeometry height="125" width="260" x="500" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-125" parent="NEB-Y5XdSD5AEIW8j8R5-121" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;core-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;OSAGO business application&lt;br&gt;policies, local product replica,&lt;br&gt;outbox policy events" vertex="1">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-348" parent="NEB-Y5XdSD5AEIW8j8R5-344" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;core-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;бизнес-заявка ОСАГО&lt;br&gt;полисы, локальная реплика продуктов,&lt;br&gt;outbox событий полисов" vertex="1">
           <mxGeometry height="120" width="230" x="385" y="351.44" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-126" parent="NEB-Y5XdSD5AEIW8j8R5-121" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;fontSize=12;fontStyle=1;arcSize=10;align=left;spacingLeft=14;" value="&lt;b&gt;Kafka / Event Broker&lt;/b&gt;&lt;br&gt;product-catalog-events&lt;br&gt;insurance_product_upserted / disabled&lt;br&gt;&lt;br&gt;policy-events&lt;br&gt;insurance_policy_issued" vertex="1">
-          <mxGeometry height="170" width="250" x="822.67" y="67.5" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-349" parent="NEB-Y5XdSD5AEIW8j8R5-344" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;fontSize=12;fontStyle=1;arcSize=10;align=left;spacingLeft=14;" value="&lt;b&gt;Kafka / Event Broker&lt;/b&gt;&lt;br&gt;product-catalog-events&lt;br&gt;insurance_product_upserted / disabled&lt;br&gt;&lt;br&gt;policy-events&lt;br&gt;insurance_policy_issued" vertex="1">
+          <mxGeometry height="170" width="250" x="970" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-127" parent="NEB-Y5XdSD5AEIW8j8R5-121" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;ins-product-aggregator&lt;/b&gt;&lt;br&gt;Kotlin, SpringBoot&lt;br&gt;product/tariff integration&lt;br&gt;producer product events" vertex="1">
-          <mxGeometry height="110" width="230" x="1262.67" y="80" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-350" parent="NEB-Y5XdSD5AEIW8j8R5-344" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;ins-product-aggregator&lt;/b&gt;&lt;br&gt;Kotlin, SpringBoot&lt;br&gt;интеграция продуктов и тарифов&lt;br&gt;producer событий продуктов" vertex="1">
+          <mxGeometry height="110" width="230" x="1430" y="67.5" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-128" parent="NEB-Y5XdSD5AEIW8j8R5-121" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;product-catalog-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;catalog snapshot / delta,&lt;br&gt;outbox product events" vertex="1">
-          <mxGeometry height="105" width="220" x="1262.67" y="331.44" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-351" parent="NEB-Y5XdSD5AEIW8j8R5-344" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;product-catalog-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;снапшот / дельта каталога,&lt;br&gt;outbox событий продуктов" vertex="1">
+          <mxGeometry height="105" width="220" x="1435" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-129" parent="NEB-Y5XdSD5AEIW8j8R5-121" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;ins-comp-settlement&lt;/b&gt;&lt;br&gt;Kotlin, SpringBoot&lt;br&gt;consumer product/policy events&lt;br&gt;реестры взаиморасчётов" vertex="1">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-352" parent="NEB-Y5XdSD5AEIW8j8R5-344" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;ins-comp-settlement&lt;/b&gt;&lt;br&gt;Kotlin, SpringBoot&lt;br&gt;потребитель product/policy events&lt;br&gt;реестры взаиморасчётов" vertex="1">
           <mxGeometry height="105" width="250" x="1030" y="495" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-130" parent="NEB-Y5XdSD5AEIW8j8R5-121" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;ins-comp-settlement-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;registers, local product replica,&lt;br&gt;local policy replica" vertex="1">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-353" parent="NEB-Y5XdSD5AEIW8j8R5-344" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;ins-comp-settlement-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;реестры, локальная реплика продуктов,&lt;br&gt;локальная реплика полисов" vertex="1">
           <mxGeometry height="105" width="240" x="1040" y="671.44" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-131" parent="NEB-Y5XdSD5AEIW8j8R5-121" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;osago-aggregator&lt;/b&gt;&lt;br&gt;Kotlin/SpringBoot&lt;br&gt;creates OSAGO applications&lt;br&gt;polls insurer decisions&lt;br&gt;streams partial results" vertex="1">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-354" parent="NEB-Y5XdSD5AEIW8j8R5-344" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;arcSize=8;" value="&lt;b&gt;osago-aggregator&lt;/b&gt;&lt;br&gt;Kotlin/SpringBoot&lt;br&gt;создаёт заявки ОСАГО&lt;br&gt;опрашивает решения СК&lt;br&gt;стримит частичные результаты" vertex="1">
           <mxGeometry height="125" width="260" x="690" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-132" parent="NEB-Y5XdSD5AEIW8j8R5-121" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;osago-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;quoteSessionId, insurer applicationId,&lt;br&gt;statuses, offers, errors,&lt;br&gt;retry/deadline state" vertex="1">
-          <mxGeometry height="125" width="250" x="700" y="600" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-355" parent="NEB-Y5XdSD5AEIW8j8R5-344" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#1e9bd7;strokeColor=#0b6fa4;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="&lt;b&gt;osago-db&lt;/b&gt;&lt;br&gt;PostgreSQL&lt;br&gt;quoteSessionId, insurer applicationId,&lt;br&gt;статусы, предложения, ошибки,&lt;br&gt;состояние retry/deadline" vertex="1">
+          <mxGeometry height="125" width="250" x="450" y="671.44" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-133" parent="NEB-Y5XdSD5AEIW8j8R5-121" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000000;fontSize=12;fontStyle=1;arcSize=10;align=left;spacingLeft=12;" value="&lt;b&gt;Monitoring / Alerting&lt;/b&gt;&lt;br&gt;consumer lag, DLQ size&lt;br&gt;osago p95 latency, insurer errors&lt;br&gt;circuit breaker state, timeout rate" vertex="1">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-356" parent="NEB-Y5XdSD5AEIW8j8R5-344" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#000000;fontSize=12;fontStyle=1;arcSize=10;align=left;spacingLeft=12;" value="&lt;b&gt;Monitoring / Alerting&lt;/b&gt;&lt;br&gt;consumer lag, размер DLQ&lt;br&gt;p95 latency ОСАГО, ошибки СК&lt;br&gt;состояние circuit breaker, доля timeout" vertex="1">
           <mxGeometry height="115" width="280" x="60" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-134" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-121" source="NEB-Y5XdSD5AEIW8j8R5-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-122" value="read/update client data&lt;br&gt;REST/internal API">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-357" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-344" source="NEB-Y5XdSD5AEIW8j8R5-347" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-345" value="читает/обновляет клиентские данные&lt;br&gt;REST/internal API">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-135" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" value="reads/writes">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-358" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-344" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" value="читает/пишет">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="180.06" y="361" />
@@ -71,10 +71,10 @@
             <mxPoint x="180.0011764705883" y="421.43999999999977" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-136" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-121" source="NEB-Y5XdSD5AEIW8j8R5-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-125" value="stores OSAGO business application&lt;br&gt;and issued policy">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-359" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-344" source="NEB-Y5XdSD5AEIW8j8R5-347" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-348" value="хранит бизнес-заявку ОСАГО&lt;br&gt;и оформленный полис">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-137" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-121" source="NEB-Y5XdSD5AEIW8j8R5-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#0b6fa4;fontColor=#0b6fa4;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-131" value="CreateOsagoQuote&lt;br&gt;gRPC server stream&lt;br&gt;offer_update / insurer_error / completed">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-360" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-344" source="NEB-Y5XdSD5AEIW8j8R5-347" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#0b6fa4;fontColor=#0b6fa4;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-354" value="CreateOsagoQuote&lt;br&gt;gRPC server stream&lt;br&gt;offer_update / insurer_error / completed">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="673" y="181" />
@@ -83,18 +83,24 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-138" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-121" source="NEB-Y5XdSD5AEIW8j8R5-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-132" value="persists technical integration state&lt;br&gt;quoteSessionId / external applicationId">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-139" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-121" source="NEB-Y5XdSD5AEIW8j8R5-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-128" value="snapshot/delta + outbox">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-361" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-344" source="NEB-Y5XdSD5AEIW8j8R5-354" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-355" value="хранит техническое состояние интеграции&lt;br&gt;quoteSessionId / external applicationId">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="1373" y="261" />
-              <mxPoint x="1373" y="261" />
+              <mxPoint x="730" y="613" />
+              <mxPoint x="575" y="613" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-140" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-121" source="NEB-Y5XdSD5AEIW8j8R5-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#6c8ebf;fontColor=#6c8ebf;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-126" value="publish product-catalog-events&lt;br&gt;via Transactional Outbox">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-362" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-344" source="NEB-Y5XdSD5AEIW8j8R5-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-351" value="снапшот/дельта + outbox">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1545" y="182.5" />
+              <mxPoint x="1545" y="482.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-363" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-344" source="NEB-Y5XdSD5AEIW8j8R5-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#6c8ebf;fontColor=#6c8ebf;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-349" value="публикует product-catalog-events&lt;br&gt;через Transactional Outbox">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1023" y="135" />
@@ -102,10 +108,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-141" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-121" source="NEB-Y5XdSD5AEIW8j8R5-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#6c8ebf;fontColor=#6c8ebf;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-126" value="publish policy-events&lt;br&gt;via Transactional Outbox">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-364" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-344" source="NEB-Y5XdSD5AEIW8j8R5-347" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#6c8ebf;fontColor=#6c8ebf;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-349" value="публикует policy-events&lt;br&gt;через Transactional Outbox">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-142" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-121" source="NEB-Y5XdSD5AEIW8j8R5-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#6c8ebf;fontColor=#6c8ebf;fontSize=11;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="NEB-Y5XdSD5AEIW8j8R5-124" value="consume product-catalog-events&lt;br&gt;update local product replica">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-365" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-344" source="NEB-Y5XdSD5AEIW8j8R5-349" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#6c8ebf;fontColor=#6c8ebf;fontSize=11;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="NEB-Y5XdSD5AEIW8j8R5-347" value="consume product-catalog-events&lt;br&gt;обновляет локальную реплику продуктов">
           <mxGeometry relative="1" x="-0.0041" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -115,52 +121,56 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-143" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-121" source="NEB-Y5XdSD5AEIW8j8R5-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#6c8ebf;fontColor=#6c8ebf;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-129" value="consume product-catalog-events&lt;br&gt;consume policy-events">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-366" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-344" source="NEB-Y5XdSD5AEIW8j8R5-349" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#6c8ebf;fontColor=#6c8ebf;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-352" value="consume product-catalog-events&lt;br&gt;consume policy-events">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-144" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-121" source="NEB-Y5XdSD5AEIW8j8R5-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-130" value="updates local replicas&lt;br&gt;and settlement registers">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-367" edge="1" parent="NEB-Y5XdSD5AEIW8j8R5-344" source="NEB-Y5XdSD5AEIW8j8R5-352" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-353" value="обновляет локальные реплики&lt;br&gt;и реестры взаиморасчётов">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-145" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=left;spacingLeft=12;" value="&lt;b&gt;API decisions&lt;/b&gt;&lt;br&gt;Web app → core-app: POST /api/osago/applications&lt;br&gt;core-app → Web app: WebSocket /ws/osago/offers/{applicationId}&lt;br&gt;core-app → osago-aggregator: gRPC server stream CreateOsagoQuote&lt;br&gt;stream messages: offer_update / insurer_error / completed" vertex="1">
-          <mxGeometry height="150" width="540" x="587.3333333333335" y="1108.5555555555554" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-368" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=left;spacingLeft=12;" value="&lt;b&gt;API ОСАГО&lt;/b&gt;&lt;br&gt;Веб-приложение → core-app: POST /api/osago/applications&lt;br&gt;core-app → Веб-приложение: WebSocket /ws/osago/offers/{applicationId}&lt;br&gt;core-app → osago-aggregator: gRPC server stream CreateOsagoQuote&lt;br&gt;stream-сообщения: offer_update / insurer_error / completed" vertex="1">
+          <mxGeometry height="150" width="540" x="1137.3333333333335" y="1065.5555555555554" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-146" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=left;spacingLeft=12;" value="&lt;b&gt;Reliability patterns on osago outbound&lt;/b&gt;&lt;br&gt;Timeout: 60s quote session deadline + per-insurer create/poll timeout&lt;br&gt;Retry: bounded retries only for transient REST failures, within 60s&lt;br&gt;Circuit Breaker: isolated per insurer&lt;br&gt;Rate Limiting: per-insurer outbound quota&lt;br&gt;Bulkhead: separate worker / connection pools per insurer" vertex="1">
-          <mxGeometry height="170" width="540" x="1197.3333333333335" y="1108.5555555555554" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-369" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=left;spacingLeft=12;" value="&lt;b&gt;Паттерны надёжности на outbound ОСАГО&lt;/b&gt;&lt;br&gt;Timeout: общий deadline 60с на quote session + timeout create/poll по каждой СК&lt;br&gt;Retry: ограниченные retry только для временных REST-ошибок, внутри 60с&lt;br&gt;Circuit Breaker: изолированно по каждой СК&lt;br&gt;Rate Limiting: outbound-квота по каждой СК&lt;br&gt;Bulkhead: отдельные worker / connection pools по каждой СК" vertex="1">
+          <mxGeometry height="170" width="540" x="1747.3333333333335" y="1065.5555555555554" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-147" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=left;spacingLeft=12;" value="&lt;b&gt;Multiple replicas&lt;/b&gt;&lt;br&gt;osago-db stores polling state; work is partitioned by quoteSessionId&lt;br&gt;idempotency by requestId / quoteSessionId&lt;br&gt;WebSocket connection stays on the core-app replica that opened the gRPC stream&lt;br&gt;osago-aggregator replicas can resume polling from persisted state" vertex="1">
-          <mxGeometry height="150" width="520" x="1807.3333333333335" y="1108.5555555555554" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-370" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=left;spacingLeft=12;" value="&lt;b&gt;Несколько реплик&lt;/b&gt;&lt;br&gt;osago-db хранит состояние polling; работа распределяется по quoteSessionId&lt;br&gt;идемпотентность по requestId / quoteSessionId&lt;br&gt;WebSocket-соединение остаётся на реплике core-app, открывшей gRPC-stream&lt;br&gt;реплики osago-aggregator возобновляют polling из сохранённого состояния" vertex="1">
+          <mxGeometry height="150" width="520" x="2357.3333333333335" y="1065.5555555555554" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-148" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=left;spacingLeft=12;" value="&lt;b&gt;Task3 retained&lt;/b&gt;&lt;br&gt;Product catalog replication and policy events stay on Kafka with Transactional Outbox. OSAGO quote responses are not published to Kafka; they are streamed to the initiating core-app request path." vertex="1">
-          <mxGeometry height="145" width="280" x="257.3333333333335" y="1108.5555555555554" as="geometry" />
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-371" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=left;spacingLeft=12;" value="&lt;b&gt;Каталог и полисы&lt;/b&gt;&lt;br&gt;Каталог продуктов и события полисов остаются в Kafka с Transactional Outbox. Ответы по ОСАГО не публикуются в Kafka; они идут по gRPC-stream в core-app." vertex="1">
+          <mxGeometry height="145" width="280" x="807.3333333333335" y="1065.5555555555554" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-149" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-119" value="uses">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-372" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-341" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-342" value="использует">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-150" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-124" value="start OSAGO application&lt;br&gt;POST /api/osago/applications">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-373" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-342" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-347" value="старт заявки ОСАГО&lt;br&gt;POST /api/osago/applications">
           <mxGeometry relative="1" x="-0.4093" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="1344" y="360" />
+              <mxPoint x="1290" y="435" />
+              <mxPoint x="1290" y="317" />
+              <mxPoint x="1700" y="317" />
+              <mxPoint x="1700" y="213" />
             </Array>
-            <mxPoint x="1330" y="340" as="targetPoint" />
+            <mxPoint x="1880" y="297" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-151" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#0b6fa4;fontColor=#0b6fa4;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-119" value="push offers as received&lt;br&gt;WebSocket /ws/osago/offers/{applicationId}">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-374" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-347" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#0b6fa4;fontColor=#0b6fa4;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-342" value="предложения по мере получения&lt;br&gt;WebSocket /ws/osago/offers/{applicationId}">
           <mxGeometry relative="1" x="-0.0011" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="1387" y="150" />
-              <mxPoint x="610" y="150" />
+              <mxPoint x="1740" y="213" />
+              <mxPoint x="1740" y="130" />
+              <mxPoint x="1130" y="130" />
             </Array>
-            <mxPoint x="817.3333333333335" y="238.55555555555543" as="targetPoint" />
+            <mxPoint x="1367.3333333333335" y="195.55555555555543" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-152" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-120" value="create application + poll offer&lt;br&gt;REST&lt;br&gt;Rate Limiting | Circuit Breaker | Retry | Timeout | Bulkhead">
+        <mxCell id="NEB-Y5XdSD5AEIW8j8R5-375" edge="1" parent="1" source="NEB-Y5XdSD5AEIW8j8R5-354" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#666666;fontSize=11;" target="NEB-Y5XdSD5AEIW8j8R5-343" value="создать заявку + получить предложение (polling)&lt;br&gt;REST&lt;br&gt;Rate Limiting | Circuit Breaker | Retry | Timeout | Bulkhead">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1520" y="601" />
-              <mxPoint x="1520" y="960" />
-              <mxPoint x="2810" y="960" />
+              <mxPoint x="2070" y="558" />
+              <mxPoint x="2070" y="917" />
+              <mxPoint x="3360" y="917" />
             </Array>
           </mxGeometry>
         </mxCell>
