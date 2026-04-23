@@ -21,13 +21,14 @@
 - `ins-product-aggregator` публикует изменения продуктов и тарифов в `product-catalog-events`.
 - `core-app` и `ins-comp-settlement` подписываются на `product-catalog-events` и обновляют локальные реплики без REST polling к `ins-product-aggregator`.
 - `core-app` публикует событие `insurance_policy_issued` в `policy-events` после оформления страховки.
+- `insurance_policy_issued` содержит данные, необходимые для взаиморасчётов: идентификаторы полиса, клиента, продукта, тарифа и страховой компании, премию, статус и время оформления.
 - `ins-comp-settlement` подписывается на `policy-events`, поддерживает локальную реплику оформленных страховок и формирует реестр взаиморасчётов без ежедневного REST-запроса в `core-app`.
 - Outbound-интеграции `ins-product-aggregator` со страховыми компаниями остаются REST/SOAP/GraphQL: внешние страховые API остаются источником продуктов и тарифов.
 
 ## События
 
 - `product-catalog-events`: `insurance_product_upserted`, `insurance_product_disabled`. Ключ партиционирования: `companyId + productId + tariffId`.
-- `policy-events`: `insurance_policy_issued`. Ключ партиционирования: `policyId`.
+- `policy-events`: `insurance_policy_issued` с данными для взаиморасчётов. Ключ партиционирования: `policyId`.
 - Каждое событие содержит `eventId`, `eventType`, `occurredAt`, версию схемы и идентификаторы доменной сущности.
 - Потребители сохраняют обработанные `eventId` в технической таблице и игнорируют дубли.
 
