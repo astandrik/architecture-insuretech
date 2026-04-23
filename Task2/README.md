@@ -10,6 +10,21 @@
 - `06-hpa-rps.yaml` — HPA по RPS на один pod, target `10`.
 - `locustfile.py` — нагрузочный сценарий для `/`.
 
+## Evidence
+
+- `evidence/01-app-running.png` — приложение, pod и NodePort service запущены.
+- `evidence/02-memory-hpa-before.png` — HPA по памяти до нагрузки.
+- `evidence/03-memory-hpa-scaled.png` — HPA по памяти увеличил replicas.
+- `evidence/04-memory-hpa-details.png` — детали HPA по памяти и `ValidMetricFound`.
+- `evidence/05-prometheus-targets.png` — Prometheus target `scaletestapp` в состоянии `UP`.
+- `evidence/06-prometheus-http-requests-total.png` — Prometheus видит `http_requests_total`.
+- `evidence/07-prometheus-rate.png` — Prometheus считает `sum(rate(http_requests_total[1m]))`.
+- `evidence/08-custom-metric-rps.png` — Custom Metrics API отдаёт `http_requests_per_second`.
+- `evidence/09-rps-hpa-before.png` — HPA по RPS до нагрузки.
+- `evidence/10-rps-hpa-watch.png` — HPA по RPS масштабируется под Locust-нагрузкой.
+- `evidence/11-rps-hpa-scaled.png` — deployment масштабирован под RPS-нагрузкой.
+- `evidence/12-locust-ui-running.png` — Locust UI с нагрузкой на `/`.
+
 ## Часть 1: HPA по памяти
 
 ```bash
@@ -65,6 +80,7 @@ kubectl port-forward -n monitoring svc/kube-prometheus-stack-prometheus 9090:909
 - Prometheus `Status → Targets`: target `scaletestapp` в состоянии `UP`.
 - Prometheus `Graph`: `http_requests_total` или `rate(http_requests_total[1m])`.
 - Kubernetes dashboard или `kubectl get hpa scaletestapp-hpa -w`, где видно увеличение replicas.
+- Locust UI, где видно нагрузку на `/`, RPS и процент ошибок.
 
 ## Статическая проверка
 
